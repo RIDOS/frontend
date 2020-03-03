@@ -2,8 +2,9 @@ html, body {
     padding: 0px;
     margin: 0px;
     background-color: cadetblue;
+    font-family: Avenir;
 }
-
+/*----------------Шапка--------------------------*/
 header {
     margin: 0px;
     background-color: cadetblue;
@@ -61,12 +62,12 @@ nav ul li a:hover {
     color: #b30217;
 }
 
+/*----------------Карусель--------------------------*/
 .slider {
     height: 1000px;
     background-color: coral;
 }
 
-/*----------------Карусель--------------------------*/
 .carousel-wrapper {/*Блок где находится карусель*/
     height:400px;
     position:relative;
@@ -131,7 +132,7 @@ nav ul li a:hover {
     opacity: 1;
 }
 
-/*--------------------------------------------------*/
+/*----------------------Булеты----------------------------*/
 .point {
     text-decoration: none;
     color: black;
@@ -144,3 +145,49 @@ nav ul li a:hover {
 .points {
     text-align: center;
 }
+/*----------------------Блок с селектором----------------------------*/
+.category {
+    height: 800px;
+    background-color: white;
+}
+
+.category .c_a li {
+    display: inline-block;
+    border-radius: 5px;
+    border-color: #b370ac;
+    text-align: center;
+    margin: 2% 82px auto;
+    background-color: coral;
+    width: 150px;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color: #b30217;
+}
+
+.card {
+    border-style: solid;
+    border-color: coral;
+    width: 210px;
+    height: 300px;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+.card button {
+    background-color: #ffffff;
+    width: 210px;
+    height: 53px;
+    padding: 0px;
+    margin: 0px;
+    color: coral;
+    border-style: none;
+}
+
+.category ul li {
+    display: inline-block;
+}
+
+#1 { display: none;}
